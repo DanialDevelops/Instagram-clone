@@ -52,7 +52,7 @@ img {
 .interact-icons ul{
     display: flex;
     list-style: none;
-    padding: 10px;
+    padding: 10px 10px 0px 10px;
     margin: 0px;
 }
 
@@ -73,3 +73,43 @@ img {
     width: 30px;
     height: 30px;
 }
+
+.font-weight{
+    font-weight: bold;
+}
+
+.liked-post{
+    padding: 0px 10px 0px 10px; 
+    margin-bottom: 8px;
+}
+
+.caption-post{
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 0;
+}
+
+.instagram-handle {
+    color: #3897f0; /* Instagram's brand color, you can choose the one you prefer */
+    text-decoration: none; /* Remove underline from links */
+  }
+
+  .instagram-handle:hover {
+    text-decoration: underline; /* Add underline on hover */
+    
+  }
+
+  .hashtags {
+    color: #3897f0; /* Grey color for the hashtags, adjust as needed */
+    font-size: 0.9em; /* Smaller font size for hashtags */
+    padding: 0px 10px 10px 10px;
+  }
+
+  .caption{
+    padding: 0px 10px 10px 10px;
+    margin-bottom: 0px;
+  }
+
+  .dots{
+    padding: 0px 10px 10px 10px;
+    color: gray;
+  }
